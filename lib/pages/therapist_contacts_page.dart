@@ -3,9 +3,12 @@ import 'package:url_launcher/url_launcher.dart';
 
 class TherapistContactsPage extends StatelessWidget {
   final List<Map<String, String>> therapists = [
-    {'name': 'Dr. John Doe', 'contact': '1-800-321-9876'},
-    {'name': 'Dr. Jane Smith', 'contact': '1-800-654-3210'},
-    {'name': 'Dr. Alice Brown', 'contact': '1-800-222-1234'},
+    {'name': 'Dr. Sunita Shetty', 'contact': '9925066569'},
+    {'name': 'Dr. Jaya Kumar', 'contact': '9775586410'},
+    {'name': 'Dr. Harish Prasad', 'contact': '9822541616'},
+    {'name': 'Dr. Tejal Shah', 'contact': '7948621359'},
+    {'name': 'Dr. Joseph', 'contact': '65432971252'},
+
   ];
 
   @override

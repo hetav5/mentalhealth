@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart'; // Import once here
+import 'package:url_launcher/url_launcher.dart'; 
 
 import 'pages/support_groups_page.dart';
 import 'pages/coping_mechanisms_page.dart';
@@ -93,7 +93,7 @@ class HomePage extends StatelessWidget {
   }
 }
 
-// Reusable button widget
+
 class HomeButton extends StatelessWidget {
   final String title;
   final String description;
@@ -120,7 +120,7 @@ class HomeButton extends StatelessWidget {
   }
 }
 
-// Example of a page (Meditation Guide)
+
 class MeditationGuidePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -142,7 +142,7 @@ class MeditationGuidePage extends StatelessWidget {
   }
 }
 
-// Example of a page (Hotline Numbers)
+
 class HotlineNumbersPage extends StatelessWidget {
   final List<Map<String, String>> hotlines = [
     {'name': 'National Suicide Prevention Hotline', 'number': '1-800-273-8255'},
